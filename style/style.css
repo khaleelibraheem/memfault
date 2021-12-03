@@ -1,0 +1,143 @@
+/* MAIN PAGE */
+.home{
+    background-image: url(../images/001+background+pattern+designs.jpg);
+    background-size: cover;
+    margin: 10px; 
+}
+
+/* NAVIGATION */
+
+
+/* HOME SECTION */
+.intro{
+    text-align: center;
+    padding: 15px 8px;
+}
+
+.button{
+    margin-top: 40px;
+}
+.main-image{
+    margin-top: 50px;
+}
+
+.btn.demo{
+    background: #1C5161;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.btn.demo:hover{
+    background: transparent;
+    color: black;
+}
+
+/* PLATFORM */
+
+.platform{
+    text-align: center;
+}
+
+.platform h6{
+    color: #1C5161;
+}
+
+.platform1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+.platform1 a{
+    color: yellow;
+}
+
+/* CARDS */
+
+.pepsi{
+    text-align: center;
+    margin: 10px 5px;
+    /* margin-right: 20px; */
+    padding: 10px 3px;
+}
+
+.products{
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+/* SMART DEVICE SECTION */
+
+h1 a{
+    color: yellow;
+}
+
+h1 a:hover{
+    color: yellow;
+}
+
+/* BENEFITS SECTION */
+
+.benefit{
+    background: #B1F6CA;
+    margin: 10px;
+}
+.ben-img img{
+    width: 100%;
+}
+
+/* BLOG */
+
+.blog{
+    text-align: center;
+    color: #1C5161;
+}
+
+.blog a{
+    color: yellow;
+}
+
+/* SCOOTER SECTION */
+
+.scooter{
+    background: url(../images/undraw_scooter_aia8.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drone{
+    background: url(../images/undraw_drone_delivery_re_in95.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scooter a{
+    color: red;
+}
+
+.drone a{
+    color: red;
+}
+
+/* TESTIMONIALS */
+.testimonials{
+    margin-top: 50px;
+}
+/* Mobile Responsiveness */
+@media(max-width:576px){
+    .platform1{
+        font-size: 15px; 
+    }
+    .memfault{
+        margin-top: 10px;
+    }
+    .scooter h2{
+        font-size: 16px;
+        padding-top: 3rem;
+    }
+
+    .scooter{
+        margin-bottom: 3rem;
+    }
+    
+}
